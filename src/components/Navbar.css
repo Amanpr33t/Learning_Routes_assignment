@@ -1,0 +1,25 @@
+nav {
+    height: 60px;
+    background-color: #fef7e5;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    padding-top: 5px;
+    color: black;
+    text-decoration: none;
+    left: 0px;
+    height: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 5px;
+}
+

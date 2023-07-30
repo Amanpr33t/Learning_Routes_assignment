@@ -1,0 +1,196 @@
+{
+    "colleges": [
+        {
+            "name": "Panjab University",
+            "courses": [
+                {
+                    "title": "Arts",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Arts",
+                            "duration": "1 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Arts",
+                            "duration": "2 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Commerce",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Commerce",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Commerce",
+                            "duration": "4 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Science",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Science",
+                            "duration": "5 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Science",
+                            "duration": "6 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Medicine",
+                    "course_list": []
+                },
+                {
+                    "title": "Law",
+                    "course_list": []
+                },
+                {
+                    "title": "Engineering",
+                    "course_list": []
+                }
+            ]
+        },
+        {
+            "name": "Thapar University",
+            "courses": [
+                {
+                    "title": "Engineering",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Computer Science",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Mechanical Engineering",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Chemical Engineering",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Biotechnology",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Computer Science2",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Mechanical Engineering2",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Chemical Engineering2",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Bachelors in Biotechnology2",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        }
+                    ]
+                },
+                {
+                    "title": "MBA",
+                    "course_list": [
+                        {
+                            "name": "Masters in Business Administration",
+                            "duration": "2 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GNDU",
+            "courses": [
+                {
+                    "title": "Commerce",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Commerce",
+                            "duration": "3 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Commerce",
+                            "duration": "4 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Science",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Science",
+                            "duration": "5 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Science",
+                            "duration": "6 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Arts",
+                    "course_list": [
+                        {
+                            "name": "Bachelors in Arts",
+                            "duration": "1 years",
+                            "fees_per_semester": "5000"
+                        },
+                        {
+                            "name": "Masters in Arts",
+                            "duration": "2 years",
+                            "fees_per_semester": "10000"
+                        }
+                    ]
+                },
+                {
+                    "title": "Law",
+                    "course_list": []
+                },
+                {
+                    "title": "Medicine",
+                    "course_list": []
+                },
+                {
+                    "title": "Engineering",
+                    "course_list": []
+                },
+                {
+                    "title": "Medicine2",
+                    "course_list": []
+                },
+                {
+                    "title": "Engineering2",
+                    "course_list": []
+                }
+            ]
+        }
+    ]
+}

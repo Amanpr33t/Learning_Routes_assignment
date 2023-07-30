@@ -1,0 +1,151 @@
+.college_dropdown {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 1;
+}
+
+.not_selected {
+    position: fixed;
+    top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_content {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.course_card_container {
+    width: 500px;
+    min-height: 497px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 219, 219);
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 0px;
+    height: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.card div h4 {
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.card div h4,
+.card div p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card div:nth-child(4) {
+    display: flex;
+    justify-content: center;
+}
+
+.card div:nth-child(4) button {
+    margin-top: 5px;
+}
+
+.card div:nth-child(4) button:hover {
+    cursor: pointer;
+}
+
+.course_card_container h3:nth-child(0) {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.course_list {
+    width: 170px;
+    min-height: 497px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.course_list h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: silver;
+}
+
+.course_list ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: scroll;
+    min-width: 115px;
+}
+
+.course_list ul li {
+    padding: 10px 5px 10px 5px;
+    background-color: gray;
+}
+
+.course_list ul li:hover {
+    background-color: rgb(157, 179, 199);
+    cursor: pointer;
+}
+.selected {
+    color: blue;
+  }
+
+@media screen and (max-width:400px) {
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
