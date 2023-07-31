@@ -1,19 +1,63 @@
-.college_dropdown {
+.dropdown_container {
     position: fixed;
     top: 60px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background-color: white;
+    gap: 10px;
     z-index: 1;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.college_dropdown select {
+    height: 25px;
+}
+
+.filter_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.course_selected,
+.duration_selected,
+.fees_selected {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.course_selected h3,
+.duration_selected h3,
+.fees_selected h3,
+.course_selected h4,
+.duration_selected h4,
+.fees_selected h4{
+    margin: 0px;
+}
+
+.filter_button button {
+    background-color: rgb(28, 120, 28);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.filter_button button:hover {
+    background-color: rgb(118, 181, 118);
+    cursor: pointer;
+}
+
 
 .not_selected {
     position: fixed;
-    top: 150px;
+    top: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,7 +65,7 @@
 }
 
 .body_content {
-    margin-top: 140px;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -30,8 +74,8 @@
 }
 
 .course_card_container {
+    margin-top: 170px;
     width: 500px;
-    min-height: 497px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -44,7 +88,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: rgb(203, 219, 219);
+    background-color: rgb(230, 237, 237);
     width: 230px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -71,6 +115,7 @@
 .card div h4 {
     margin-right: 10px;
     padding-left: 5px;
+    color: rgb(46, 43, 43)
 }
 
 .card div h4,
@@ -86,15 +131,20 @@
 
 .card div:nth-child(4) button {
     margin-top: 5px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
 .card div:nth-child(4) button:hover {
     cursor: pointer;
+    background-color: silver;
 }
 
-.course_card_container h3:nth-child(0) {
+.course_card_container h2 {
     position: absolute;
-    top: 100px;
+    top: -20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -138,9 +188,14 @@
     background-color: rgb(157, 179, 199);
     cursor: pointer;
 }
+
 .selected {
     color: blue;
-  }
+}
+
+.blur {
+    filter: blur(5px);
+}
 
 @media screen and (max-width:400px) {
     .card {
